@@ -1,0 +1,12 @@
+Feature: Wikipedia app navigation
+
+  Scenario: Open Lydia and Crésus pages
+    Given the Wikipedia app is launched
+    When I swipe through the carousel
+    And I click on "Get Started"
+    And I search for "Lydia"
+    And I dismiss the popup
+    And I change the language to "Français"
+    And I scroll to the bottom of the page
+    And I open "Crésus" in a new tab
+    Then I should see the Crésus page

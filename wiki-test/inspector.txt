@@ -1,0 +1,9 @@
+{
+  "platformName": "Android",
+  "appium:automationName": "UiAutomator2",
+  "appium:deviceName": "Android Emulator",
+  "appium:appPackage": "org.wikipedia.alpha",
+  "appium:appActivity": "org.wikipedia.DefaultIcon",
+  "appium:noReset": false,
+  "appium:fullReset": false
+}
